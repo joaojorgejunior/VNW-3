@@ -8,15 +8,12 @@
     height: 55vh;
 }
 .topo {
-    width: 30%;
-    margin-left: 35vw;
     text-decoration: none;
     font-family: sans-serif;
     display: flex;
-    justify-content:space-around;
-    padding-top: 30px;
-    
-    
+    justify-content: center;
+    gap: 4.5vw;
+    padding-top: 30px; 
 }
 a{
     color: white;
@@ -37,14 +34,13 @@ h1{
 }
 .meio{
     display: flex;
-    justify-content: space-evenly;
-    width: 50%;
+    justify-content:center;
     height: 17vh;
-    padding-top: 12vh;
     font-size: 20px;
-    align-items: flex-start;
-    margin-left: 22vw;
     font-family: sans-serif;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    gap: 4vw;
 }
 main{
     background-color: #FFA185;
@@ -58,7 +54,6 @@ h2{
     height: 20vh;
     align-items: flex-end;
     margin-left: 142px;
-
 }
 p{
     font-family: sans-serif; 
@@ -66,9 +61,7 @@ p{
     display: flex;
     height: 10vh;
     align-items: flex-end;
-    justify-content: center;
-    
-    
+    justify-content: center;   
 }
 .fotos1 {
     display: flex;
@@ -81,7 +74,6 @@ p{
 }
  section img{
     width: 450px;
-    
 }
 .veja{
     width:100% ;
@@ -92,8 +84,7 @@ p{
 h3{
     font-family: sans-serif; 
     font-size: 22px;
-    font-weight: bold;
-   
+    font-weight: bold; 
 }
 footer{
     background-color: #129799;
@@ -105,27 +96,25 @@ footer{
     width: 30%;
     height: 18vh;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items:center ;
-    
 }
 .imgRedes img{
     width: 25px;
     cursor: pointer;
-
 }
 .links{
     font-size: 20px;
     display: flex;
-    width: 100%;
     height: 18vh;
+    width: 50%;
     align-items:center ;
-    justify-content: flex-end;  
-    margin-right: 17vw;
+    justify-content:flex-end;  
     font-family: sans-serif;
+    gap: 4vw; 
 }
 .links a{
-    margin: 20px;
+    margin: 20px; 
 }
 
 
